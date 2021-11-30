@@ -1,0 +1,165 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: segoe ui;
+	background-color: #EDEEF1;
+	background-size: cover;
+	background-position: center;
+}
+
+.box {
+	width: 600px;
+	margin: 80px auto;
+	padding-bottom: 10px;
+	padding: 70px auto;
+	border: 2px solid #CAD0D6;
+	border-radius: 30px;
+}
+
+.box h1 {
+	color: #2f3e46;
+	text-align: center;
+	padding: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 40px;
+}
+
+.input-field {
+	width: 70%;
+	margin: 30px auto;
+}
+
+.input-box {
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+.input-box input[type="email"]{
+	color: #2f3e46;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 5px;
+	width: 95%;
+	border-bottom: 2px solid #D6DADD;
+	transition: .15s ease-in-out;
+}
+
+.input-box input[type="email"]:focus {
+	border-bottom: 2px solid #354f52;
+}
+
+.input-box input[type="password"]{
+	color: #2f3e46;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 5px;
+	width: 95%;
+	border-bottom: 2px solid #D6DADD;
+	transition: .15s ease-in-out;
+}
+
+.input-box input[type="password"]:focus {
+	border-bottom: 2px solid #354f52;
+}
+
+::placeholder {
+	color: #B9C9C1;
+}
+
+.submit {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px
+}
+
+.submit input[type="submit"] {
+	font-family: segoe ui;
+	background-color: transparent;
+	outline: none;
+	width: 120px;
+	padding: 2px 5px;
+	font-size: 14px;
+	border: 2px solid #2f3e46;
+	cursor: pointer;
+	color: #2f3e46;
+	font-weight: bold;
+	transition: .2s;
+	border-radius: 4px;
+	text-transform: uppercase;
+	margin-top: 20%;
+}
+
+.submit input[type="submit"]:hover {
+	background-color: #2f3e46;
+	color: #e6e7e9;
+	width: 125px;
+}
+
+.input-box img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+p {
+	color: #2f3e46;
+	font-family: segoe ui;
+	font-weight: bold;
+	text-align: center;
+	margin: 40px;
+}
+
+p a {
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #354f52;
+	padding: 2px 5px;
+	border-radius: 10px;
+	transition: .2s;
+	top: 100px;
+}
+
+p a:hover {
+	color: #e6e7e9;
+	background: #354f52;
+}
+
+.othr {
+	width: 95%;
+	font-family: segoe ui;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.othr a {
+	float: right;
+	color: #85AA98;
+	text-decoration: none;
+}
+
+.othr a:hover {
+	color: #658A7D;
+}
+
+.othr label {
+	color: #2f3e46;
+	transition: .3s;
+	cursor: pointer;
+	padding: 2px;
+}
+
+.othr input {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+}

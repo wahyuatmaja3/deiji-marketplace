@@ -1,0 +1,249 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #EDEEF1;
+}
+
+@font-face {
+	font-family: amaticSC;
+	src: url(AmaticSC-Regular.ttf);
+}
+
+.box {
+	display: flex;
+	font-family: segoe ui;
+}
+
+.box .left {
+	width: 45%;
+	height: 90vh;
+	justify-content: flex-start;
+	background-image: url(img-raw/dforest1.jpg);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 10px 20px #646968;
+	margin: 30px;
+	border-radius: 50px;
+	transition: .3s ease-out;
+}
+
+.box .left .text {
+	width: 90%;
+	margin: 60% auto;
+	color: #eeeddd;
+}
+
+.box .left .text h1 {
+	margin-bottom: 20px;
+}
+
+.box .right {
+	width: 55%;
+	height: 120vh;
+	justify-content: flex-end;
+	background-color: none;
+}
+
+.form {
+	align-content: center;
+	width: 90%;
+	height: 85%;
+	display: flex;
+	margin: 10% auto;
+}
+
+.form form {
+	margin: 5%;
+	width: 100%;
+}
+
+.form form h1 {
+	color: #2f3e46;
+	margin-bottom: 1%;
+	text-transform: uppercase;
+}
+
+.form form p {
+	color: #2f3e46;
+	margin: 30px 0 10% 0;
+	font-family: segoe ui;
+}
+
+.form form p a {
+	text-decoration: none;
+	transition: 2s ease-in-out;
+	color: #354f52;
+}
+
+.form form p a:hover {
+	border-bottom: 1px solid #52796f;
+}
+
+.items {
+	width: 100%;
+	padding: 25px 0;
+	display: block;
+}
+
+.items input[type="text"] {
+	width: 225px;
+	justify-content: center;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	border-bottom: 2px solid #D6DADD;
+	font-family: segoe ui;
+	font-weight: 600;
+	margin-right: 50px;
+	transition: .2s;
+}
+
+.items input[type="text"]:focus {
+	border-bottom: 2px solid #354f52;
+}
+
+.items input[type="email"] {
+	width: 225px;
+	justify-content: center;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	border-bottom: 2px solid #D6DADD;
+	font-family: segoe ui;
+	font-weight: 600;
+	margin-right: 60px;
+	transition: .2s;
+}
+
+.items input[type="email"]:focus {
+	border-bottom: 2px solid #354f52;
+}
+
+.items input[type="password"] {
+	width: 225px;
+	justify-content: center;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	border-bottom: 2px solid #D6DADD;
+	font-family: segoe ui;
+	font-weight: 600;
+	margin-right: 60px;
+	transition: .2s;
+}
+
+.items input[type="password"]:focus {
+	border-bottom: 2px solid #354f52;
+}
+
+.items p {
+	display: inline;
+	color: #84a98c;
+}
+
+::placeholder {
+	color: #D6DADD;
+}
+
+.submit {
+	font-family: arial;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20%;
+	margin-top: 10%;
+}
+
+.submit a {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #354f52;
+	letter-spacing: 2px;
+	padding: 2px;
+	border: none;
+	border-bottom: 3px solid #F1F1F7;
+	transition: .12s;
+	cursor: pointer;
+	background-color: #F1F1F7;
+	text-decoration: none;
+}
+
+.submit a:hover {
+	border-bottom: 3px solid #354f52;
+	padding: 2px 4px;
+}
+
+/* Footer Template */
+
+.footer {
+	width: 100%;
+	height: 65vh;
+	background-color: #1b1c25;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 -5px 10px rgba(0,0,0,.5);
+	position: relative;
+	bottom: 0;
+}
+
+.f-items {
+	list-style: none;
+	color: #ebecf1;
+	width: 15%;
+	height: 250px;
+	margin: 50px 0 0 50px;
+	text-align: center;
+	margin-top: 8%;
+	font-family: verdana;
+}
+
+.f-items a {
+	text-decoration: none;
+	color: #ebecf1;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 35px;
+}
+
+.f-social {
+	width: 400px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 65%;
+	left: 500px;
+}
+
+.f-social a img {
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+	margin: 0 10px;
+	border: 1px solid #ebecf1;
+}
+
+.f-link {
+	position: absolute;
+	bottom: 30px;
+	width: 500px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	left: 450px;
+	top: 80%
+
+}
+
+.f-link a {
+	font-size: 8px;
+	margin-right: 10px;
+}
+
